@@ -13,6 +13,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -53,7 +58,7 @@ a {
   color: #404bbf;
 }
 
-.main-hero {
+.main-hero .container{
   background-color: #2e2f42;
 }
 
@@ -143,7 +148,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.page-footer {
+.page-footer .container{
   background-color: #2e2f42;
 }
 
