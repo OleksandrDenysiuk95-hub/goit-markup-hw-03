@@ -25,6 +25,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -35,6 +40,10 @@ a {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.section {
+  padding: 120px 0 120px;
 }
 
 .page-header {
@@ -113,13 +122,13 @@ a {
   color: #404bbf;
 }
 
-.main-hero .container {
+.main-hero {
   background-color: #2e2f42;
+  padding: 188px 0 188px;
 }
 
 .hero-title {
   width: 496px;
-  padding-top: 188px;
   margin: 0 auto 48px ;
   font-weight: 700;
   font-size: 56px;
@@ -130,9 +139,9 @@ a {
 }
 
 .order-service-btn {
+  display: block;
   border-radius: 4px;
-padding-block: 16px;
-padding-inline: 32px;
+  border: none;
   width: 169px;
   height: 56px;
   margin: auto;
@@ -142,7 +151,7 @@ padding-inline: 32px;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  cursor: pointer;
+  text-align: center;
 }
 
 .order-service-btn:hover,
@@ -151,7 +160,6 @@ padding-inline: 32px;
 }
 
 .main-headlines {
-  padding-top: 120px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -178,7 +186,6 @@ padding-inline: 32px;
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 120px 0;
 }
 
 .advantages-item {
@@ -200,7 +207,7 @@ padding-inline: 32px;
   letter-spacing: 0.02em;
 }
 
-.main-team .container {
+.main-team {
   background-color: #f4f4fd;
 }
 
@@ -208,7 +215,6 @@ padding-inline: 32px;
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
   margin-top: 72px;
 }
 
@@ -256,7 +262,6 @@ padding-inline: 32px;
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .portfolio-card {
@@ -282,9 +287,8 @@ padding-inline: 16px;
   margin-top: 8px;
 }
 
-.page-footer .container {
+.page-footer {
   background-color: #2e2f42;
-  width: auto;
   padding: 100px 0;
 }
 
