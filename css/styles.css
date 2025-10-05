@@ -243,13 +243,6 @@ button {
   text-align: center;
 }
 
-.portfolio-list {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  flex-wrap: wrap;
-}
-
 .portfolio-raw-one {
   display: flex;
   align-items: center;
